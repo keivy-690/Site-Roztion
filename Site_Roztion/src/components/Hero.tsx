@@ -4,29 +4,29 @@ import { Link } from 'react-router-dom';
 
 export default function Hero() {
   return (
-    <section className="pt-24 pb-16 bg-gradient-to-br from-purple-50 to-white">
+    <section className="pt-24 pb-16 bg-gradient-to-br from-primary-100 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-8 items-center">
           <div className="mb-12 lg:mb-0">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-900 leading-tight mb-6">
               Transforme seu negócio com{' '}
-              <span className="text-purple-600">Marketing Digital</span> estratégico
+              <span className="text-primary-600">Marketing Digital</span> estratégico
             </h1>
-            <p className="text-lg text-gray-600 mb-8">
+            <p className="text-lg text-primary-700 mb-8">
               Potencialize seus resultados com estratégias personalizadas de tráfego pago
               e marketing digital que realmente funcionam.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 to="/contact"
-                className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-purple-600 hover:bg-purple-700 transition-colors"
+                className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-primary-600 hover:bg-primary-700 transition-colors"
               >
                 Comece Agora
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
               <Link
                 to="/cases"
-                className="inline-flex items-center justify-center px-6 py-3 border border-gray-300 text-base font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 transition-colors"
+                className="inline-flex items-center justify-center px-6 py-3 border border-primary-200 text-base font-medium rounded-lg text-primary-700 bg-white hover:bg-primary-50 transition-colors"
               >
                 Ver Cases de Sucesso
               </Link>
@@ -41,8 +41,8 @@ export default function Hero() {
             />
             <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-lg shadow-lg">
               <div className="flex items-center space-x-2">
-                <Target className="h-6 w-6 text-purple-600" />
-                <span className="font-semibold">+200% ROI Médio</span>
+                <Target className="h-6 w-6 text-primary-600" />
+                <span className="font-semibold text-primary-800">+200% ROI Médio</span>
               </div>
             </div>
           </div>
